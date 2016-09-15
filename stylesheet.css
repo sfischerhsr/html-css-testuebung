@@ -1,0 +1,33 @@
+header, footer{
+    width: 100%;
+    background-color: yellow;
+}
+nav{
+    width: 20%;
+    background-color: aqua;
+}
+main{
+    width: 60%;
+    background-color: limegreen;
+}
+aside{
+    width: 20%;
+    background-color: cadetblue;
+}
+p{
+    padding: 15px;
+    margin: 0px;
+}
+nav, main, aside, footer, header {
+    float: left;
+}
+@media screen and (max-width: 768px) {
+nav, main, aside {
+    width: 100%;
+}
+}
+@media screen and (min-width: 769px) {
+nav, main, aside {
+    min-height: 66px;
+}
+}
